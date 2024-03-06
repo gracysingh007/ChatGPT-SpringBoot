@@ -26,7 +26,7 @@ public class BotController {
 
     @SuppressWarnings("null")
     @GetMapping("/chat")
-public String chat() {
+public String chat() { 
     String prompt = "Assume the identity of a data modeler who is proficient in modelling data related to cyber security data log.\n" +
             "The log contains detailed information about a security event related to file upload activity on a system, for example data from Google Workspace drive access log.\n\n" +
             "Following is the data model I want you to use to map field to :\n" +
